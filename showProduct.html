@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>S2PRO Gaming Shop</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="./ProjetHTML.html">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href=".#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart active"></i></a></li>
+        </ul>
+        <!-- for responsive button -->
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <div style="display: flex; justify-content: center;width: 70%; margin: auto;">
+        <div>
+            <img src="./1.jpg" width="500em" alt="">
+        </div>
+        <div style="padding: 4em 3em;">
+            <h3>Ryzen 9 5950x</h3>
+            <div class="desc">
+                <p style="padding-block: 3em;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid et distinctio debitis dicta
+                    inventore voluptas autem accusamus itaque nostrum deserunt aperiam necessitatibus nemo cum earum, ea
+                    corporis vitae blanditiis.
+                </p>
+            </div>
+            <div class="buttons">
+                <button
+                    style="background-color: rgba(16, 147, 16, 0.779); padding: 1em 2em; border-radius: 5px; border: none; color: white">Shop
+                    now!</button>
+                <button
+                    style="background-color: rgba(184, 27, 27, 0.779); padding: 1em 2em; border-radius: 5px; border: none; color: white">Cancel</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <p>Copyrights at <a href="S2PRO Gaming Shop">S2PRO Gaming Shop</a></p>
+        <div class="icons">
+
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+    </footer>
+
+    <!-- jquery -->
+    <script>
+        $(".menu-btn").click(function () {
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "My_Project",
+			"path": "."
+		},
+		{
+			"name": "js",
+			"path": "../bootstrap-5.3.0-alpha1-dist/js"
+		},
+		{
+			"name": "css",
+			"path": "../bootstrap-5.3.0-alpha1-dist/css"
+		}
+	],
+	"settings": {}
+}

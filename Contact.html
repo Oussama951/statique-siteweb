@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            .form-group {
+                border: 1px solid lightgray;
+                padding: 20px;
+                border-radius: 10px;
+                width: 300px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <form class="form-group">
+                <h1 class="text-center">Sign in</h1>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <label>username</label>
+                        <input type="text" class="form-control" name="username">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <label>password</label>
+                        <input type="password" class="form-control" name="password">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <input type="button" class="btn btn-primary" value="login">
+                    </div>
+                </div>
+            </form>
+            <div class="text-center mt-3">
+                <p>or sign in with</p>
+                <a href="#" class="btn btn-danger mr-3">
+                    <i class="fab fa-google mr-2"></i> Google
+                </a>
+                <a href="#" class="btn btn-primary">
+                    <i class="fab fa-facebook-f mr-2"></i> Facebook
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
+
